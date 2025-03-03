@@ -1,0 +1,93 @@
+Random Forest Classification Report (Cross-Validation):
+              precision    recall  f1-score   support
+
+          -1       0.81      0.88      0.85        94
+           1       0.81      0.71      0.75        65
+
+    accuracy                           0.81       159
+   macro avg       0.81      0.80      0.80       159
+weighted avg       0.81      0.81      0.81       159
+
+    -1   1
+-1  83  11
+ 1  19  46
+ Mean Cross-Entropy Loss (Log Loss): 0.3760
+
+
+
+Gradient Boosting Classification Report (Cross-Validation):
+              precision    recall  f1-score   support
+
+          -1       0.83      0.88      0.86        94
+           1       0.81      0.74      0.77        65
+
+    accuracy                           0.82       159
+   macro avg       0.82      0.81      0.81       159
+weighted avg       0.82      0.82      0.82       159
+
+    -1   1
+-1  83  11
+ 1  17  48
+Mean Cross-Entropy Loss (Log Loss): 0.4927
+
+
+Logistic Regression Classification Report (Cross-Validation):
+              precision    recall  f1-score   support
+
+          -1       0.84      0.89      0.87        94
+           1       0.83      0.75      0.79        65
+
+    accuracy                           0.84       159
+   macro avg       0.84      0.82      0.83       159
+weighted avg       0.84      0.84      0.84       159
+
+    -1   1
+-1  84  10
+ 1  16  49
+Mean Cross-Entropy Loss (Log Loss): 0.4256
+
+
+
+ANN Classification Report Cross-Validation:
+              precision    recall  f1-score   support
+
+          -1       0.72      0.99      0.83        94
+           1       0.97      0.45      0.61        65
+
+    accuracy                           0.77       159
+   macro avg       0.84      0.72      0.72       159
+weighted avg       0.82      0.77      0.74       159
+
+   -1    1
+-1  90   4
+ 1  52  13
+Mean Cross-Entropy Loss (Log Loss): 1.3201
+Average Accuracy: 0.0829
+
+
+RFR:
+
+Mean MSE: 106.8964
+Mean MAE: 6.3011
+Mean R2 Score: 0.6549
+
+
+GBR:
+
+Mean MSE: 110.2532
+Mean MAE: 6.3783
+Mean R2 Score: 0.6588
+
+
+ANN:
+
+Mean MSE: 123.7230
+Mean MAE: 8.1455
+Mean R2: 0.5329
+
+
+ElNet:
+
+Mean MSE: 86.3683
+Mean MAE: 6.3558
+Mean R2 Score: 0.6817
