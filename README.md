@@ -76,15 +76,16 @@ Four models to predict the actual volatility values:
 
 ## Project Structure
 
-├───data
-│   ├───processed
-│   └───raw
-├───reports
-├───results
-│   ├───images
-│   └───logs
-└───src
-
+├── README.md  
+├── requirements.txt  
+├── data  
+│   ├── processed  
+│   └── raw  
+├── reports  
+├── results  
+│   ├── images  
+│   └── logs  
+└── src
 
 The project source code is contained in the following notebook:
 
