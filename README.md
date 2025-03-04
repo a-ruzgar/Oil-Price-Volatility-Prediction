@@ -154,4 +154,4 @@ jupyter notebook
 
 ## Acknowledgments
 - Data sources: Oilprice.com, Google Trends, EIA, Bloomberg Terminal
-- Academic references are listed in the full paper
+- Academic references are fully listed in the paper
