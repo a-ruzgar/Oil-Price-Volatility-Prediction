@@ -1,7 +1,7 @@
 # Oil Price Volatility Classification and Prediction
 
 ## Project Overview
-This repository contains the implementation of machine learning models to classify and predict oil price volatility using sentiment analysis, financial news headlines, Google Trends data, and energy market metrics. The project aims to help stakeholders in the energy sector make more informed decisions by accurately forecasting oil price volatility.
+In this repository, we try to classify and predict the oil price volatility by utilizing sentiment data from financial news headlines, Google Trends data, and energy market metrics. We employ different machine learning models and pre-trained financial language models in order to help stakeholders in the energy sector make more informed decisions by accurately forecasting oil price volatility. Our report is available on SSRN via the link provided [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5104171).
 
 ## Authors
 - Kerem Çiftçi
